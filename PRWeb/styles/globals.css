@@ -1,0 +1,235 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'SpoqaHanSansNeo-Light', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  background: #d2d2d2;
+  border-radius: 4px;
+}
+body::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+  background: none;
+}
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Thin';
+  font-weight: normal;
+  src: url('/font/SpoqaHanSansNeo-Thin.eot') format('embedded-opentype'), url('/font/SpoqaHanSansNeo-Thin.otf') format('opentype'),
+    url('/font/SpoqaHanSansNeo-Thin.ttf') format('truetype'), url('/font/SpoqaHanSansNeo-Thin.woff') format('woff'), url('/font/SpoqaHanSansNeo-Thin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Light';
+  font-weight: normal;
+  src: url('/font/SpoqaHanSansNeo-Light.eot') format('embedded-opentype'), url('/font/SpoqaHanSansNeo-Light.otf') format('opentype'),
+    url('/font/SpoqaHanSansNeo-Light.ttf') format('truetype'), url('/font/SpoqaHanSansNeo-Light.woff') format('woff'), url('/font/SpoqaHanSansNeo-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  font-weight: normal;
+  src: url('/font/SpoqaHanSansNeo-Regular.eot') format('embedded-opentype'), url('/font/SpoqaHanSansNeo-Regular.otf') format('opentype'),
+    url('/font/SpoqaHanSansNeo-Regular.ttf') format('truetype'), url('/font/SpoqaHanSansNeo-Regular.woff') format('woff'),
+    url('/font/SpoqaHanSansNeo-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Medium';
+  font-weight: normal;
+  src: url('/font/SpoqaHanSansNeo-Medium.eot') format('embedded-opentype'), url('/font/SpoqaHanSansNeo-Medium.otf') format('opentype'),
+    url('/font/SpoqaHanSansNeo-Medium.ttf') format('truetype'), url('/font/SpoqaHanSansNeo-Medium.woff') format('woff'), url('/font/SpoqaHanSansNeo-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Bold';
+  font-weight: normal;
+  src: url('/font/SpoqaHanSansNeo-Bold.eot') format('embedded-opentype'), url('/font/SpoqaHanSansNeo-Bold.otf') format('opentype'),
+    url('/font/SpoqaHanSansNeo-Bold.ttf') format('truetype'), url('/font/SpoqaHanSansNeo-Bold.woff') format('woff'), url('/font/SpoqaHanSansNeo-Bold.woff2') format('woff2');
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* input 기본 스타일 초기화 */
+input {
+  /* -webkit-appearance: none; */
+  -moz-appearance: none;
+  /* appearance: none; */
+}
+/* IE10 이상에서 input box 에 추가된 지우기 버튼 제거 */
+input::-ms-clear {
+  display: none;
+}
+/* input type number 에서 화살표 제거 */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* Select box 스타일 초기화 */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* IE 에서 Select box 화살표 제거 */
+select::-ms-expand {
+  display: none;
+}
+/* firefox */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear {
+  display: none;
+}
+
+.ql-snow strong,
+.ql-snow em {
+  font: revert;
+}

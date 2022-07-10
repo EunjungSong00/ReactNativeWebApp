@@ -1,0 +1,13 @@
+current directory: /Users/hs770616/carmerce/carmerce-user/carmerceUser/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+/Users/hs770616/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/hs770616/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20220215-73120-1xf97co.rb extconf.rb
+creating Makefile
+
+current directory: /Users/hs770616/carmerce/carmerce-user/carmerceUser/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/hs770616/carmerce/carmerce-user/carmerceUser/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/hs770616/carmerce/carmerce-user/carmerceUser/vendor/bundle/ruby/2.7.0/gems/json-2.6.1/ext/json
+make "DESTDIR=" install

@@ -1,0 +1,185 @@
+{
+    "brandList": [
+        {
+            "brandName": "현대",
+            "brand":"hyundai",
+            "modelList": [
+                {
+                    "modelName": "그랜저",
+                    "modelDetailList": [
+                        "그랜저 IG",
+                        "그랜저 하이브리드",
+                        "더 뉴 그랜저"
+                    ]
+                },
+                {
+                    "modelName": "아반떼",
+                    "modelDetailList": [
+                        "올 뉴 아반떼",
+                        "아반떼 N"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "제네시스",
+            "brand":"genesis",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "기아",
+            "brand":"kia",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "쉐보레 GM대우",
+            "brand":"chevrolet",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "삼성",
+            "brand":"samsung",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "쌍용",
+            "brand":"ssangyong",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "벤츠",
+            "brand":"benz",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "BMW",
+            "brand":"bmw",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        },
+        {
+            "brandName": "BMW",
+            "brand":"bmw",
+            "modelList": [
+                {
+                    "modelName": "k7",
+                    "modelDetailList": [
+                        "k7 럭셔리",
+                        "k7 프레스티지"
+                    ]
+                },
+                {
+                    "modelName": "k5",
+                    "modelDetailList": [
+                        "k5 럭셔리",
+                        "k5 프레스티지"
+                    ]
+                }
+            ]
+        }
+    ]
+}

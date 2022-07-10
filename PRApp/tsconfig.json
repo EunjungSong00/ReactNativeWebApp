@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["ES2020", "DOM", "ESNext.String", "dom.iterable"], // 문법
+    "module": "esnext", // 최신모듈
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "es5",
+    "baseUrl": "../carmerceUser",
+    "paths": {
+      "@api/*": ["./src/api/*"],
+      "@component/*": ["./src/component/*"],
+      "@atom/*": ["./src/component/atom/*"],
+      "@template/*": ["./src/component/template/*"],
+      "@module/*": ["./src/module/*"],
+      "@hook/*": ["./src/hook/*"],
+      "@store/*": ["./src/module/store/*"],
+      "@public/*": ["./public/*"],
+      "@image/*": ["./public/image/*"],
+      "@type/*": ["./src/type/*"],
+      "@screen/*": ["screen/*"],
+      "@interface/*": ["./src/interface/*"]
+    },
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true // 에러 위치
+  },
+  "include": [
+    "src/**/*", "**/*.ts", "**/*.tsx",
+    "public",
+    "screen", "webview"],
+  "exclude": ["node_modules",
+    "babel.config.js",
+    "metro.config.js"
+  ]
+}
